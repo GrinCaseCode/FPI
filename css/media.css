@@ -177,6 +177,46 @@
     .about ol ol li::before {
         min-width: 36px;
     }
+    .row.row_contacts .row > div,
+    .row.row_contacts > div {
+        padding: 0 15px;
+    }
+    .row.row_contacts .row,
+    .row.row_contacts {
+        margin: 0 -15px;
+    }
+    .unit-contacts__content {
+        padding: 28px 22px;
+        min-height: 184px;
+        font-size: 16px;
+    }
+    .unit-contacts {
+        margin-bottom: 30px;
+    }
+    .unit-contacts__head {
+        font-size: 22px;
+        gap: 14px;
+        padding: 21px;
+        padding-bottom: 17px;
+    }
+    .form-page {
+        padding: 27px 68px;
+    }
+    .title-form {
+        font-size: 28px;
+    }
+    .descr-form {
+        font-size: 16px;
+    }
+    .form-page .btn-main {
+        margin-top: 16px;
+    }
+    .form-page .item-form {
+        margin-bottom: 14px;
+    }
+    .map-wrap {
+        padding: 100px 0;
+    }
 }
 
 @media only screen and (max-width : 1600px) {
@@ -375,6 +415,34 @@
     }
     .logo-wrap {
         gap: 30px;
+    }
+    .form-page {
+        padding: 27px 50px;
+    }
+    .title-form {
+        font-size: 26px;
+        margin-bottom: 10px;
+    }
+    .descr-form {
+        font-size: 15px;
+    } 
+    .unit-contacts__content {
+        padding: 24px 20px;
+        min-height: 170px;
+        font-size: 15px;
+    }
+    .form-page .btn-main {
+        margin-top: 10px;
+    }
+    .form-page .item-form {
+        margin-bottom: 11px;
+    }
+    .page-contacts {
+        padding-top: 35px;
+        padding-bottom: 58px;
+    }
+    .unit-contacts__head {
+        font-size: 20px;
     }
 }
 @media only screen and (max-width : 1400px) {
