@@ -70,7 +70,7 @@ if ( $(this).scrollTop() > 0 && $menu.hasClass("default") ){
 		touchThreshold: 1000,
 		slidesToShow: 5,
 		slidesToScroll: 5,
-		speed: 16000,
+		speed: 29000,
         autoplay: true,
 		variableWidth: true,
         autoplaySpeed: 0, 
