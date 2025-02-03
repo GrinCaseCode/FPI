@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Onest';
+    src: local('Onest Black'), local('Onest-Black'),
+        url('Onest-Black.woff2') format('woff2'),
+        url('Onest-Black.woff') format('woff'),
+        url('Onest-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+  }
