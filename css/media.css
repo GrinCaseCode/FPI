@@ -846,7 +846,7 @@
         left: 0;
         max-height: 100vh;
         padding: 15px 15px;
-        padding-bottom: 110px;
+        padding-bottom: 80px;
         color: #2d2d2d;
         display: none;
         overflow: auto;
@@ -882,6 +882,12 @@
     }
     .no-scroll {
         overflow: hidden;
+    }
+    .billbord .title-section {
+        font-size: 25px;
+    }
+    .title-section strong {
+        font-size: 28px;
     }
 }
 
