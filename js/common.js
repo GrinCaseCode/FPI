@@ -77,6 +77,17 @@ if ( $(this).scrollTop() > 0 && $menu.hasClass("default") ){
         cssEase: 'linear',
 	});
 
+	$('.slider-sertificats').slick({
+		arrows: true,
+		dots: false,
+		infinite: true,
+		touchThreshold: 1000,
+		slidesToShow: 2,
+		slidesToScroll: 1,
+		prevArrow: '<div class="slick-prev slick-arrow"><i class="far fa-chevron-left"></i><div/>',
+		nextArrow: '<div class="slick-next slick-arrow"><i class="far fa-chevron-right"></i><div/>',
+	});
+
 	$(".input-phone").mask("+7 (999) 999-99-99");
 
 	 /*input file*/
