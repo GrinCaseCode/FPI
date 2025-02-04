@@ -1493,6 +1493,12 @@
     .page-about {
         padding-bottom: 70px;
     }
+    .unit-contacts__content {
+        min-height: 140px;
+    }
+    .page-article .title-page {
+        margin-bottom: 26px;
+    }
 }
 
 /* Small Devices, Tablets */
