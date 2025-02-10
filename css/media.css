@@ -1723,6 +1723,7 @@
         display: block;
     }
     .item-installation .table-page td:nth-child(1) {
+        padding-bottom: 0;
         font-weight: 600;
     }
     .item-installation .table-page {
