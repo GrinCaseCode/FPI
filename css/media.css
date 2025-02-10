@@ -1718,6 +1718,7 @@
     .item-installation .table-page th,
     .item-installation .table-page td,
     .item-installation .table-page tr,
+    .item-installation .table-page tbody,
     .item-installation .table-page thead,
     .item-installation .table-page table {
         display: block;
