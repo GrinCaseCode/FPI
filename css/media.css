@@ -23,7 +23,7 @@
         padding: 0 21px;
         font-size: 13px;
     }
-    .sidebar {
+    .sidebar { 
         width: 145px;
     }
     .wrapper {
@@ -317,6 +317,9 @@
     }
     .page-about {
         padding-bottom: 100px;
+    }
+    .footer .row > div:nth-child(2) .footer__nav {
+        margin-right: 40px;
     }
 }
 
@@ -1499,6 +1502,9 @@
     .page-article .title-page {
         margin-bottom: 26px;
     }
+    .footer .row > div:nth-child(2) .footer__nav {
+        margin-right: 30px;
+    }
 }
 
 /* Small Devices, Tablets */
@@ -1604,6 +1610,9 @@
     .btn_top:hover {
         background: #295fa9;
     }
+    .item-service:hover {
+        background: #295fa9;
+    }
 }
 
 @media (hover: none) {
@@ -1639,6 +1648,9 @@
         color: #000;
     }
     .btn_top:active {
+        background: #295fa9;
+    }
+    .item-service:active {
         background: #295fa9;
     }
 }

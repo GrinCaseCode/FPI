@@ -26,7 +26,7 @@ body textarea:required:valid {
 body {
 	font-family: 'Onest';
 	font-size: 16px;
-	line-height: 160%;
+	line-height: 160%; 
 	color: #2d2d2d;
 	font-weight: 500;
 	overflow-x: hidden;
@@ -833,6 +833,9 @@ form {
 }
 .footer__nav_main {
 	margin-left: -30px;
+}
+.footer .row > div:nth-child(2) .footer__nav {
+	margin-right: 30px;
 }
 /*Style Sandwich*/
 .sandwich span {
