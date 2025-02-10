@@ -1715,6 +1715,23 @@
         border-radius: 10px;
         background-color: #ccc;
     }
+    .item-installation .table-page th,
+    .item-installation .table-page td,
+    .item-installation .table-page tr,
+    .item-installation .table-page thead,
+    .item-installation .table-page table {
+        display: block;
+    }
+    .item-installation .table-page td:nth-child(1) {
+        font-weight: 600;
+    }
+    .item-installation .table-page {
+        margin: 0;
+        overflow: initial;
+    }
+    .item-installation .table-page table {
+        width: 100%;
+    }
     .item-installation__image {
         margin: 0;
         margin-top: 25px;
